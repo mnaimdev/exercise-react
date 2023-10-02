@@ -1,0 +1,119 @@
+.rightbar-container {
+    background-color: white;
+    margin: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    height: 100vh;
+    padding: 30px;
+    box-sizing: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+
+.bio-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.bio-text {
+    margin: 10px 0;
+}
+
+.bio-text p, h3 {
+    margin: 5px 0;
+}
+
+
+.bio-image {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.about-container p, small {
+    margin: 10px;
+}
+
+
+.break-container {
+    margin-top: 50px;
+}
+
+.break-btn-container {
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.break-btn {
+    width: 30px;
+    height: 30px;
+    /* background-color: white; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.exercise-details {
+    margin-top: 50px;
+    
+}
+
+.exercise-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 20px 0px;
+}
+
+.break-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 20px 0px;
+}
+
+.complete-btn {
+    background-color: #6c6cef;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}

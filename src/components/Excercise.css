@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.excercise-container {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.underline {
+    width: 9rem;
+    height: 0.25rem;
+    margin: 20px auto;
+    background-color: #6c6cef;
+}
+
+.icon {
+    color: #6c6cef;
+    font-size: 40px;
+    margin: 0px 10px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+    color: #6c6cef;
+}
+
+.excercise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+    text-align: left;
+    
+}
+
+.exercise-item {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+
+.exercise-img {
+   width: 100%;
+   height: 130px;
+   object-fit: cover;
+   margin: 20px 0px;
+}
+
+.exercise-text,
+.exercise-age,
+.time {
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+
+.exercise-btn {
+    background-color: #6c6cef;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.exercise-btn:hover {
+    cursor: pointer;
+}
